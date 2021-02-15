@@ -15,6 +15,10 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.projectKey>olgaZskiba_Java_blog</sonar.projectKey>
+		<sonar.organization>olgazskiba</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>1d6a5bdf6f595ce63a17646134353173f1d57ece</sonar.login>
 	</properties>
 	<dependencies>
 		<dependency>

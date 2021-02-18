@@ -1,0 +1,52 @@
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.lecture2Test  - 1000000
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.lecture2Test  - 1000000
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.lecture2Test  - 2147483647
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.lecture2Test  - -2147483648
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.lecture2Test  - 16
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.lecture2Test  - 2
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - 0
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - false
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - 
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - 
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - 5
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - init0
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - init 0
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - init null
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - init 0
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - init null
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - parent: class java.lang.Object	classname: [I
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - parent: class java.lang.Object	classname: [Z
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - parent: class java.lang.Object	classname: [Ljava.lang.String;
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - parent: class java.lang.Object	classname: [Lio.github.olgazskiba.Java_blog.arrays.MyClass;
+[main] INFO  io.github.olgazskiba.Java_blog.arrays.ArraysLecture2Test  - parent: class java.lang.Object	classname: [[Lio.github.olgazskiba.Java_blog.arrays.MyClass;
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - Wrapper Byte = null Wrapper Long = null
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - Wrapper Byte = 10 Wrapper Long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper bool1 = false
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper bool1 = false
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper bool1 = false
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper bool1 = false
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper bool1 = false
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - 250
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - 250
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - 250
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper byte = 10 wrapper byte = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper long = 10 wrapper long = 10
+[main] INFO  io.github.olgazskiba.Java_blog.wrapper.Wrapper  - wrapper bool1 = false

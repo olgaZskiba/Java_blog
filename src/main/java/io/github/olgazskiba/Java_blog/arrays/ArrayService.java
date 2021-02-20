@@ -1,6 +1,7 @@
 package io.github.olgazskiba.Java_blog.arrays;
 
 import java.util.Random;
+import java.util.*;
 
 public class ArrayService {
 
@@ -48,5 +49,31 @@ public class ArrayService {
 
         }
         return average;
+    }
+
+    void sort(int[] array) {
+        int arr[] = new int[10];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) (Math.random() * 100);
+            System.out.print(arr[i] + "  ");
+        }
+        System.out.print("\nSorted: \n");
+        Arrays.sort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + "  ");
+        }
+    }
+
+    void swap(Integer[] array) {
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() * 100);
+            System.out.print(array[i] + "  ");
+        }
+        System.out.print("\nSorted: \n");
+        Arrays.sort(array, Collections.reverseOrder());
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + "  ");
+        }
     }
 }

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.yaml.snakeyaml.util.ArrayUtils;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -76,4 +77,44 @@ class ArrayServiceTest {
             assertEquals(15, average);
         }
     }
-}
+
+    @Test
+    void sort() {
+        int arr[] = new int[10];
+        for(int i = 0; i <  arr.length; i++) {
+            arr[i] =  (int)(Math.random() * 100);
+            log.info(arr[i] + "  ");
+        }
+        System.out.print("\nSorted: \n");
+        Arrays.sort(arr);
+        for(int i = 0; i <  arr.length; i++) {
+            log.info(arr[i] + "  ");
+        }
+    }
+
+    @Test
+    void swap() {
+        Integer arr[] = new Integer[10];
+        for(int i = 0; i <  arr.length; i++) {
+            arr[i] =  (int)(Math.random() * 100);
+            System.out.print(arr[i] + "  ");
+        }
+        System.out.print("\nSorted: \n");
+        Arrays.sort(arr, Collections.reverseOrder());
+        for(int i = 0; i <  arr.length; i++) {
+            System.out.print(arr[i] + "  ");
+        }
+
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+

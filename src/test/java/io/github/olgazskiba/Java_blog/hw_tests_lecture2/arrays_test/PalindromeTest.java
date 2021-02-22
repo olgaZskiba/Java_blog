@@ -1,5 +1,6 @@
 package io.github.olgazskiba.Java_blog.hw_tests_lecture2.arrays_test;
 
+import io.github.olgazskiba.Java_blog.hw_lecture2.arrays.Palindrome;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
@@ -10,20 +11,9 @@ class PalindromeTest {
 
     @Test
     void isPalindrome() {
-        boolean notPalindrome = false;
-        String string = "ABBA";
-
-        string = string.replaceAll("[^a-zA-Z]+","").toLowerCase();
-
-        char[] array = string.toCharArray();
-        for(int i=0, j=array.length-1; i<j; i++, j--) {
-            if(array[i] != array[j]) {
-                notPalindrome = true;
-                break;
-            }
-        }
-        log.info(string + " is palindrome? " + !notPalindrome);
-        assertEquals(true, !notPalindrome);
+        Palindrome palindrome = new Palindrome();
+        String text = "Doc, note, I dissent. A fast never prevents a fatness. I diet on cod";
+        palindrome.isPalindrome(text);
+        assertEquals(true, palindrome.isPalindrome(text));
     }
-
-    }
+}

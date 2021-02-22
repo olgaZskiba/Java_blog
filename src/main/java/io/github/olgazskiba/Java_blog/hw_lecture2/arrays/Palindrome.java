@@ -1,20 +1,24 @@
-package io.github.olgazskiba.Java_blog.arrays;
+package io.github.olgazskiba.Java_blog.hw_lecture2.arrays;
+
+import org.apache.log4j.Logger;
 
 public class Palindrome {
-    boolean isPalindrome(String text){
+
+    public Logger log = Logger.getLogger(Palindrome.class);
+
+    public boolean isPalindrome(String text){
         boolean notPalindrome = false;
-        String string = "Doc, note, I dissent. A fast never prevents a fatness. I diet on cod";
+        text = text.replaceAll("[^a-zA-Z]+","").toLowerCase();
 
-        string = string.replaceAll("[^a-zA-Z]+","").toLowerCase();
-
-        char[] array = string.toCharArray();
+        char[] array = text.toCharArray();
         for(int i=0, j=array.length-1; i<j; i++, j--) {
             if(array[i] != array[j]) {
                 notPalindrome = true;
                 break;
             }
         }
-        return notPalindrome;
+        log.info(text + " is palindrome? " + !notPalindrome);
+        return !notPalindrome;
     }
-    }
+}
 

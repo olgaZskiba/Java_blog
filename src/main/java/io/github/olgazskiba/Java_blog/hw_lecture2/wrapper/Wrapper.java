@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.wrapper;
+package io.github.olgazskiba.Java_blog.hw_lecture2.wrapper;
 
 import org.apache.log4j.Logger;
 
@@ -10,7 +10,6 @@ public class Wrapper {
 
     public void test(){
         log.info("Wrapper Byte = " + b1 + " " +"Wrapper Long = " + l1);
-
-    }
+}
 
 }

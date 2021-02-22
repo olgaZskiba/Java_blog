@@ -1,30 +1,28 @@
-package io.github.olgazskiba.Java_blog.wrapper;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture2.wrapper_test;
 
+import io.github.olgazskiba.Java_blog.hw_lecture2.wrapper.Wrapper;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class WrapperTest {
-    public Logger log = Logger.getLogger(Wrapper.class);
+    public Logger log = Logger.getLogger(WrapperTest.class);
 
     @Test
     public void createWrapperWithConstructor(){
-
         Byte b1 = new Byte((byte) 10);
         Byte b2 = new Byte( "10");
-
-        Long l1 = new Long(10);
-        Long l2 = new Long("10");
 
         Boolean bool1 = new Boolean(null);
         Boolean bool2 = new Boolean(false);
 
         log.info("wrapper byte = " + b1 + " " + "wrapper byte = " + b2);
-        log.info("wrapper long = " + l1 + " " + "wrapper long = " + l2);
-        log.info("wrapper bool1 = " + bool1);
+        log.info("wrapper bool1 = " + bool1 + " " + "wrapper long = " + bool2);
         assertEquals(b1, b2);
         assertNotSame(b1, b2);
+        assertEquals(bool1, bool2);
+        assertNotSame(bool1, bool2);
 
     }
     @Test
@@ -44,6 +42,7 @@ class WrapperTest {
         assertSame(l1, Long.valueOf(b1));
 
     }
+
     @Test
     public void wrapperInEitherTypes(){
         String s1 = "125";

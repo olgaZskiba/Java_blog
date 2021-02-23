@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.math_operations;
+package io.github.olgazskiba.Java_blog.hw_lecture1.math_operations;
 
 public class MathOperationsDemo {
 

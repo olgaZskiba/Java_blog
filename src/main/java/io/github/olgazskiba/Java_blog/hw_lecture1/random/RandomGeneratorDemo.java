@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.random;
+package io.github.olgazskiba.Java_blog.hw_lecture1.random;
 
 public class RandomGeneratorDemo {
     public static int random(int randomNumber) {

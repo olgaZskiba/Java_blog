@@ -1,5 +1,6 @@
-package io.github.olgazskiba.Java_blog.random;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture1.random;
 
+import io.github.olgazskiba.Java_blog.hw_lecture1.random.RandomGeneratorDemo;
 import io.github.olgazskiba.Java_blog.math_operations.MathOperationsDemo;
 import org.junit.jupiter.api.Test;
 

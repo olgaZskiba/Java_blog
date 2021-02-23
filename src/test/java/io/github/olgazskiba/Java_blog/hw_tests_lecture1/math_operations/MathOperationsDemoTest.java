@@ -1,5 +1,6 @@
-package io.github.olgazskiba.Java_blog.math_operations;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture1.math_operations;
 
+import io.github.olgazskiba.Java_blog.hw_lecture1.math_operations.MathOperationsDemo;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

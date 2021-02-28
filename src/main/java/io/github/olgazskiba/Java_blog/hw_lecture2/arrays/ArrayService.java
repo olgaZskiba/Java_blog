@@ -1,20 +1,26 @@
 package io.github.olgazskiba.Java_blog.hw_lecture2.arrays;
 
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import java.util.Random;
 import java.util.*;
 import org.apache.log4j.Logger;
 
 public class ArrayService {
+    private Random rand = SecureRandom.getInstanceStrong();
     public Logger log = Logger.getLogger(ArrayService.class);
+
+    public ArrayService() throws NoSuchAlgorithmException {
+    }
 
     public int[] create(int size) {
         return new int[size];
     }
 
     public void fillRandomly(int[] array) {
-        Random random = new Random();
+
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt( 101);
+            array[i] = rand.nextInt( 101);
         }
     }
 
@@ -57,7 +63,7 @@ public class ArrayService {
     }
 
     public void sort(int[] array) {
-        //int arr[] = new int[10];
+
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 100);
             log.info(array[i] + "  ");

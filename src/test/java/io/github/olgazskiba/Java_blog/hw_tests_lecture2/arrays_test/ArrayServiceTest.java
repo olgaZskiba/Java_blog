@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Test;
 import org.yaml.snakeyaml.util.ArrayUtils;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
@@ -15,6 +16,9 @@ class ArrayServiceTest {
     ArrayService arrayService = new ArrayService();
 
     public Logger log = Logger.getLogger(ArrayServiceTest.class);
+
+    ArrayServiceTest() throws NoSuchAlgorithmException {
+    }
 
     @Test
     void create() {

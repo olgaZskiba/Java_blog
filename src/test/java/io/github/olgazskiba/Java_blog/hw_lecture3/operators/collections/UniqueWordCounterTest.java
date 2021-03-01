@@ -36,7 +36,6 @@ class UniqueWordCounterTest {
         uniqueWordCounter.addWord("d");
         uniqueWordCounter.addWord("d");
         assertEquals(4, uniqueWordCounter.getMostFrequentWord());
-
     }
 
     @Test

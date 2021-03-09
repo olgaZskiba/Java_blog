@@ -1,10 +1,9 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture3.collections.shop;
+import io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop.Product;
 
+import io.github.olgazskiba.Java_blog.hw_lecture3.collections.shop.Shop;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 

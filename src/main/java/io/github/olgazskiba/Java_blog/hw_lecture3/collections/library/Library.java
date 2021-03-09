@@ -1,5 +1,5 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.library;
-import io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.library.Book;
+package io.github.olgazskiba.Java_blog.hw_lecture3.collections.library;
+
 /*Необходимо разработать систему учета книг. Нужно создать два класса: книга Book и библиотека Library.
 
 Класс Book должен состоять из автора книги и ее названия.
@@ -28,7 +28,7 @@ public class Library {
 
     public Logger log = Logger.getLogger(SignComparator.class);
 
-    List<Book> bookList = new ArrayList<>();
+    public List<Book> bookList = new ArrayList<>();
 
     public void addBook(Book book){
         bookList.add(book);

@@ -1,6 +1,7 @@
 package io.github.olgazskiba.Java_blog.hw_lecture3.collections.shop;
 import io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop.Product;
 
+
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
@@ -24,7 +25,7 @@ import static io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.s
 //Создать магазин можно как с пустым списком товаров, так и с начальным набором.
 public class Shop {
 
-    public List<io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop.Product> productList = new LinkedList<>();
+    public List<Product> productList = new LinkedList<>();
 
     public void addProduct(Product product) {
         if (product != null)

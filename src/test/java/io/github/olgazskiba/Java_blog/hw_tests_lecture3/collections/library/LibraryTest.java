@@ -1,9 +1,12 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.library;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture3.collections.library;
 
+import io.github.olgazskiba.Java_blog.hw_lecture3.collections.library.Book;
+import io.github.olgazskiba.Java_blog.hw_lecture3.collections.library.Library;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LibraryTest {
     Book book1;

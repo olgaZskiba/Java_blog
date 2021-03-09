@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.library;
+package io.github.olgazskiba.Java_blog.hw_lecture3.collections.library;
 
 import java.util.Objects;
 

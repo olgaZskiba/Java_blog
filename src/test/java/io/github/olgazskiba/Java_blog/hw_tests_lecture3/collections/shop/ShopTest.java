@@ -1,5 +1,7 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture3.collections.shop;
+import io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop.Product;
 
+import io.github.olgazskiba.Java_blog.hw_lecture3.collections.shop.Shop;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ShopTest {
     Shop shop = new Shop();
-    Product product1;
+    io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.shop.Product product1;
     Product product2;
     Product product3;
     Product product4;

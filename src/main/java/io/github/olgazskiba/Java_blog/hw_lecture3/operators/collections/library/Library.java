@@ -1,4 +1,5 @@
 package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.library;
+import io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections.library.Book;
 /*Необходимо разработать систему учета книг. Нужно создать два класса: книга Book и библиотека Library.
 
 Класс Book должен состоять из автора книги и ее названия.

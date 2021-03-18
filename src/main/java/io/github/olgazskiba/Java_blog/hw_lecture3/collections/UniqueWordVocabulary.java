@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections;
+package io.github.olgazskiba.Java_blog.hw_lecture3.collections;
 
 import io.github.olgazskiba.Java_blog.hw_lecture3.operators.SignComparator;
 import org.apache.log4j.Logger;
@@ -20,7 +20,7 @@ public class UniqueWordVocabulary {
 
     public Logger log = Logger.getLogger(SignComparator.class);
 
-    Set<String> vocabulary = new HashSet<>();
+    public Set<String> vocabulary = new HashSet<>();
 
     public void addWord(String word) {
         if (!(word == null) && !(vocabulary.contains(word))) {

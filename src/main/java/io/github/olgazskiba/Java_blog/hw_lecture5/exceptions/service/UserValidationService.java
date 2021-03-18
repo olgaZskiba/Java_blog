@@ -11,7 +11,7 @@ package io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.service;
 то необходимо выбросить UserValidationException с причиной ошибки.
  */
 
-import io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.been.User;
+import io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.bean.User;
 import org.apache.log4j.Logger;
 
 public class UserValidationService {

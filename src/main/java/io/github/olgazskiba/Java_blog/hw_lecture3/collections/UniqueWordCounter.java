@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections;
+package io.github.olgazskiba.Java_blog.hw_lecture3.collections;
 /*Необходимо разработать класс UniqueWordCounter, который в качестве коллекции использует Map.
 Данный класс должен выполнять следующие задачи:
 
@@ -17,7 +17,7 @@ public class UniqueWordCounter {
 
     public Logger log = Logger.getLogger(SignComparator.class);
 
-    Map<String, Integer> counterString = new HashMap<>();
+    public Map<String, Integer> counterString = new HashMap<>();
 
     public void addWord(String word){
         Integer frequency = counterString.get(word);

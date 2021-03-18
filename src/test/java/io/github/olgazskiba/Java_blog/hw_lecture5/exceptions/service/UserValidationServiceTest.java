@@ -1,6 +1,6 @@
 package io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.service;
 
-import io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.been.User;
+import io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.bean.User;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,5 +1,6 @@
-package io.github.olgazskiba.Java_blog.hw_lecture3.operators.collections;
+package io.github.olgazskiba.Java_blog.hw_tests_lecture3.collections;
 
+import io.github.olgazskiba.Java_blog.hw_lecture3.collections.UniqueWordCounter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

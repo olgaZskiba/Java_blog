@@ -1,4 +1,4 @@
-package io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.been;
+package io.github.olgazskiba.Java_blog.hw_lecture5.exceptions.bean;
 
 /*
 Необходимо разработать следующие классы:
